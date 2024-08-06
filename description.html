@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Style links  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-white">
+    <div class="container px-16 mx-auto">
+      <div class="wrapper text-center mt-5">
+        <h2 class="text-6xl font-semibold">Shikoyatingizni yozing</h2>
+        <div class="flex items-center justify-center mt-10">
+          <form action="#">
+            <div class="">
+              <i class="fa-solid fa-trash text-emerald-500 text-2xl"></i>
+              <input
+                class="py-2 input1 shadow-sm shadow-gray-500 px-2 outline-emerald-500 text-emerald-500 w-[300px] rounded-lg"
+                placeholder="Write"
+                type="text"
+              />
+              <button
+                class="btn1 active:scale-[0.9] shadow-sm shadow-gray-500 border-emerald-500 text-white bg-emerald-500 hover:bg-white hover:text-emerald-500 font-medium border-2 rounded-lg py-[7px] px-6"
+              >
+                Send
+              </button>
+            </div>
+
+            <div class="mt-5">
+              <i class="fa-solid fa-tree text-emerald-500 text-2xl"></i>
+              <input
+                class="py-2 input2 w-[300px] shadow-sm shadow-gray-500 outline-emerald-500 text-emerald-500 px-2 rounded-lg"
+                placeholder="Write"
+                type="text"
+              />
+              <button
+                class="btn2 active:scale-[0.9] shadow-sm shadow-gray-500 border-emerald-500 text-white bg-emerald-500 hover:bg-white hover:text-emerald-500 font-medium border-2 rounded-lg py-[7px] px-6"
+              >
+                Send
+              </button>
+            </div>
+
+            <div class="mt-5">
+              <i class="fa-solid fa-building text-emerald-500 text-2xl"></i>
+              <input
+                class="py-2 input3 w-[300px] shadow-sm shadow-gray-500 outline-emerald-500 text-emerald-500 px-2 rounded-lg"
+                placeholder="Write"
+                type="text"
+              />
+              <button
+                class="btn3 active:scale-[0.9] shadow-sm shadow-gray-500 border-emerald-500 text-white bg-emerald-500 hover:bg-white hover:text-emerald-500 font-medium border-2 rounded-lg py-[7px] px-6"
+              >
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="users-wrapper"></div>
+    </div>
+    <noscript>Browser java scriptni qollab quvvatlamaydi</noscript>
+    <script src="./app.js"></script>
+  </body>
+</html>
